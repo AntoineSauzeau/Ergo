@@ -1,0 +1,27 @@
+body
+{
+  color: #F4ECF7;
+  margin: 0px;
+}
+
+.button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+    outline: 4px solid black;
+    border-radius: 5px;
+    float: left;
+    height: 30px;
+    width: 110px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.bttn_text {
+
+}

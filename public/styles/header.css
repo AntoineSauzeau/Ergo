@@ -1,0 +1,29 @@
+#header_body {
+    width: 100%;
+    height: 90px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo_part {
+    width: 30%;
+    height: inherit;
+}
+
+#central_part {
+    width: 40%;
+    height: inherit;
+}
+
+#login_part {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+}
+
+.v_centered {
+    margin-top: auto;
+    margin-bottom: auto;
+}
