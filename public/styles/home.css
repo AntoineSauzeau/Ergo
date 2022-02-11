@@ -1,6 +1,6 @@
 body
 {
-  background-color: #E0FFFF;
+  background-color: #f5f4f4;
   margin: 0px;
 }
 
@@ -25,3 +25,23 @@ body
 .bttn_text {
 
 }
+
+#image_fw {
+  position: absolute;
+  z-index: 1;
+}
+
+#image_fw img {
+  width: 100%;
+}
+
+#slogan {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+

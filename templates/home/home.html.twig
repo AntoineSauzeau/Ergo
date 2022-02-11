@@ -13,16 +13,34 @@
             {% include 'header.html.twig'%}
         </header>
 
-        <div id="particles-js"></div>
+        <div id="fw_frame">
+            <div id="image_fw">
+                <img src="images/brainstorming.jpg" />
+            </div>
 
+            <div id="slogan">
+                <h1>Vous cherchez un projet qui vous passionne ? Parfait</h1>
+            </div>
+            <div class="button_frame">
+                <div class="button" id="bttn_new_project">
+                    <div class="bttn_text">
+                        Créer un nouveau projet
+                    </div>
+                </div>
+                <div class="button" id="bttn_see_projects"">
+                    <div class="bttn_text">
+                        Voir la listes des projets
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer>
             {% include 'footer.html.twig'%}
         </footer>
 
-
-        <script src="scripts/particles.js"></script>
-        <script src="{{project_path}}/lib/particle.js/particles.js"></script>
+        <script src="scripts/particles.js/particles.js"></script>
+        <script src="scripts/home.js"></script>
 
     </body>
 </html>
