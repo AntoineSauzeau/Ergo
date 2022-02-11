@@ -13,6 +13,9 @@
 #logo {
   width: 100px;
   height: 100px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
 
 #central_part {
@@ -23,9 +26,26 @@
 #login_part {
     width: 30%;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     height: inherit;
 }
+
+#login_part .v_centered {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#register {
+    margin-right: 6%;
+    width: 150px;
+}
+
+#login {
+    margin-right: 8%;
+    width: 150px;
+}
+
 
 .v_centered {
     margin-top: auto;
